@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuyiseka Tana - Web Developer Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+    <!-- Header/Navigation -->
+    <header class="bg-gray-800 text-white p-4 shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="#hero" class="text-2xl font-bold text-indigo-400 rounded-lg p-2 hover:bg-indigo-600 transition-colors duration-300">Vuyiseka Tana-Web Developer</a>
+            <ul class="flex space-x-4 mt-4 md:mt-0">
+                <li><a href="#bio" class="hover:text-indigo-400 transition-colors duration-300">Bio</a></li>
+                <li><a href="#skills" class="hover:text-indigo-400 transition-colors duration-300">Skills</a></li>
+                <li><a href="#experience" class="hover:text-indigo-400 transition-colors duration-300">Experience</a></li>
+                <li><a href="#contact" class="hover:text-indigo-400 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-4 py-8">
+
+        <!-- Hero Section -->
+        <section id="hero" class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-xl shadow-lg p-8 md:p-12 text-center mb-8">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight">Hello, I'm <span class="text-yellow-300">Vuyiseka </span></h1>
+            <p class="text-xl md:text-2xl mt-4 max-w-2xl mx-auto">
+                A passionate web developer building modern and responsive web applications.
+                
+            </p>
+            <div class="mt-8">
+                <!-- Buttons are now links again -->
+                <a href="#projects" class="bg-white text-indigo-700 hover:bg-gray-200 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 inline-block">View My Projects</a>
+                <a href="#contact" class="ml-4 text-white border-2 border-white hover:bg-white hover:text-indigo-700 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 inline-block">Get in Touch</a>
+            </div>
+            <!-- Optional: Placeholder for a profile picture -->
+            <img src="https://placehold.co/150x150/A3BFED/FFFFFF?text=Profile" alt="Your Profile Picture" class="rounded-full mx-auto mt-8 border-4 border-white shadow-md">
+        </section>
+
+        <!-- Bio Section -->
+        <section id="bio" class="bg-white rounded-xl shadow-lg p-8 md:p-12">
+            <h2 class="text-center text-4xl font-bold mb-6 text-gray-800">About Me</h2>
+            <div class="max-w-3xl mx-auto text-lg text-gray-700">
+                <p>
+                    I am a Rhodes Honours student in Information Systems, deeply passionate about technology and its potential to solve real-world problems. My academic journey has equipped me with a strong analytical foundation, and I am driven by the desire to build intuitive and impactful web experiences.I am a full-stack developer with skills in PHP, JavaScript, CSS, and HTML.
+                </p>
+                </p>
+                <p class="mt-4">
+                    I'm a budding web developer with a strong foundation in front-end technologies and a keen eye for design. My journey into coding began with a fascination for how websites come to life, and I've been hooked ever since. I thrive on solving complex problems and transforming ideas into functional, beautiful web applications.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-gray-100 rounded-xl shadow-lg p-8 md:p-12">
+            <h2 class="text-center text-4xl font-bold mb-6 text-gray-800">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-700">Relevent Coursework</h3>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Database Management</li>
+                        <li>User Experience (UX)</li>
+                        <li>Project Management</li>
+                        <li>Data Analysis</li>
+                        <li>IT Business Consulting </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-700">Languages & Tools</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>HTML and CSS</li>
+                        <li>Tableau and Tableau Prep</li>
+                        <li>Microsoft Office (Word, Excel, Powerpoint, Teams)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-3 text-indigo-700">General</h3>
+                    <ul>
+                        <li>Problem Solving</li>
+                        <li>Attention to Detail</li>
+                        <li>Cross-browser Compatibility</li>
+                        <li>Web Accessibility</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="bg-white rounded-xl shadow-lg p-8 md:p-12">
+            <h2 class="text-center text-4xl font-bold mb-6 text-gray-800">Experience</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <!-- Example Experience Item 1 -->
+                <div class="border-l-4 border-indigo-500 pl-6 py-2 relative">
+                    <div class="absolute -left-2 top-0 bg-indigo-500 rounded-full w-4 h-4"></div>
+                    <h3 class="text-2xl font-semibold text-gray-800">Junior Web Developer Intern</h3>
+                    <p class="text-lg text-gray-600">Hex Softwares Intern  | June 2025 – Present</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                        <li>Completing a 1-month remote Web Development Internship , where I apply full-stack development skills (PHP, JavaScript, CSS, HTML) to hands-on projects, gaining practical industry experience and contributing actively to assigned tasks.</li>
+                        <li>Contributed to front-end development, implementing responsive UI designs and improving user experience.</li>
+                        <li>Collaborated with design teams to translate wireframes into functional web pages.</li>
+                        
+                    </ul>
+                </div>
+
+                
+                <div class="border-l-4 border-indigo-500 pl-6 py-2 relative">
+                    <div class="absolute -left-2 top-0 bg-indigo-500 rounded-full w-4 h-4"></div>
+                    <h3 class="text-2xl font-semibold text-gray-800">Information Systems 2 Tutor</h3>
+                    <p class="text-lg text-gray-600">Rhodes Univeristy| Feb 2025 – Present</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                        <li>Facilitated weekly practical coding labs for second-year Information Systems students, with classes of over 100 students per session.</li>
+                        <li>Worked closely with academic staff to improve instructional delivery and identify areas where students required additional support.</li>
+                        
+                    </ul>
+                    </div>
+                    <div class="border-l-4 border-indigo-500 pl-6 py-2 relative">
+                    <div class="absolute -left-2 top-0 bg-indigo-500 rounded-full w-4 h-4"></div>
+                    <h3 class="text-2xl font-semibold text-gray-800">Accounting 101 Tutor</h3>
+                    <p class="text-lg text-gray-600">Rhodes Univeristy| July 2023 – Oct 2023</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                        <li>Conducted weekly tutorial sessions for undergraduate Accounting students, covering core topics such as financial reporting, journal entries, and ledger balancing.</li>
+                        <li>Delivered one-on-one and small-group support to help students master complex concepts and improve problem-solving skills.</li>
+                        
+                    </ul>
+
+                </div>
+                <!-- Add more experience items as needed -->
+            </div>
+        </section>
+
+        <!-- Projects Section (Now visible by default) -->
+        <section id="projects" class="bg-gray-100 rounded-xl shadow-lg p-8 md:p-12 text-center">
+            <h2 class="text-center text-4xl font-bold mb-6 text-gray-800">My Projects</h2>
+            <p class="text-lg text-gray-700"></p>
+            <!-- You will add your actual project cards here later -->
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-indigo-700 text-white rounded-xl shadow-lg p-8 md:p-12 text-center">
+            <h2 class="text-4xl font-bold mb-6">Get in Touch</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                I'm always open to new opportunities and collaborations. Feel free to reach out!
+            </p>
+            <div class="space-y-4">
+                <a href="mailto:your.email@example.com" class="bg-white text-indigo-700 hover:bg-gray-200 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 inline-block">
+                    Email Me: vuyisekatana002@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/vuyiseka-tana-30765028a/" target="_blank" class="block md:inline-block bg-white text-blue-600 hover:bg-gray-200 font-bold py-3 px-8 rounded-full shadow-lg transition-all duration-300 mt-4 md:mt-0 md:ml-4">
+                    LinkedIn Profile
+                </a>
+                
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-8 text-center mt-8">
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <div class="mt-2">
+            <!-- Footer navigation/links -->
+            <a href="#hero" class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300">Back to Top</a>
+        </div>
+    </footer>
+</body>
+</html>

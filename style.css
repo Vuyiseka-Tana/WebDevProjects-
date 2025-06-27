@@ -1,0 +1,80 @@
+* Custom CSS for the Personal Portfolio */
+
+/* Base styles for the body */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+}
+
+/* Custom styles for sections to provide consistent padding and spacing */
+section {
+    padding: 4rem 1rem; /* Generous padding for sections */
+    margin-bottom: 2rem; /* Space between sections */
+}
+
+/* Style for main headings (h1, h2) */
+h1, h2 {
+    font-weight: 700;
+    color: #1a202c; /* Darker heading color */
+}
+
+/* Specific style for the main H1 heading in the Hero section */
+h1 {
+    font-size: 3rem; /* Large size for main heading */
+    margin-bottom: 1rem;
+}
+
+/* Specific style for section H2 headings */
+h2 {
+    font-size: 2.25rem; /* Section heading size */
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Style for general paragraphs */
+p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+
+/* Style for unordered lists */
+ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+
+/* Style for list items */
+ul li {
+    background-color: #e2e8f0; /* Light gray for list items */
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem; /* Rounded corners for list items */
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Custom bullet point for list items */
+ul li::before {
+    content: '•'; /* Custom bullet point */
+    color: #4a5568; /* Darker color for bullet */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+/* Responsive adjustments for larger screens */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 4rem; /* Larger on desktop */
+    }
+    h2 {
+        font-size: 3rem; /* Larger on desktop */
+    }
+    section {
+        padding: 6rem 2rem;
+    }
+}
